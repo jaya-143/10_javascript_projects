@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EABDE6;
+}
+.container{
+    text-align: center;
+}
+span{
+    color: red;
+}
+button{
+    background-color:#AA60C8 ;
+    color:#FFDFEF ;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid honeydew;
+    box-shadow: 0 0 12px 8px rgba(0,0,0,0.3);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.5;
+}
+button:hover{
+    box-shadow: 0 0 12px 8px rgba(0,0,0,0.4);
+    background-color:#EC7FA9;
+    color: #f0f0f0;
+}
