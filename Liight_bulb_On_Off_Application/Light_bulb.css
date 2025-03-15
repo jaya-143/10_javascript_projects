@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#222 ;
+}
+
+body.on{
+    background-color: #555,#111;
+}
+
+.wire{
+    
+    background: #000;
+    position: absolute;
+    left: calc(45% - 1px);
+    bottom: 50%;
+    height: 60vh;
+    width: 4px;
+    z-index: 1;
+}
+
+.wire1{
+    background: #000;
+    position: absolute;
+    left: calc(20% - 1px);
+    bottom: 40%;
+    height: 70vh;
+    width: 4px;
+    z-index: 1;
+}
+
+.wire2{
+    
+    background: #000;
+    position: absolute;
+    left: calc(70% - 2px);
+    bottom: 60%;
+    height: 80vh;
+    width: 4px;
+    z-index: 1;
+}
+
+.bulb{
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    z-index: 2;
+}
+.bulb1{
+    margin-left: 20px;
+    background: transparent;
+}
+.bulb2{
+    margin-left: 20px;
+    background: transparent;
+}
+
+.bulb i{
+    font-size: 4rem;
+    color: #444;
+    position: absolute;
+    top: 51%;
+    left: 45.1%;
+    transform: translate(-50%,-10%) rotate(180deg);
+    
+
+}
+
+.bulb1 i{
+    font-size: 4rem;
+    color: #444;
+    position: absolute;
+    top: 58.2%;
+    left: 20%;
+    transform: translate(-50%,20%) rotate(180deg);
+}
+
+.bulb2 i{
+    font-size: 4rem;
+    color: #444;
+    position: absolute;
+    top: 38.4%;
+    left: 70%;
+    transform: translate(-50%,20%) rotate(180deg);
+}
+
+.switch{
+    position: absolute;
+    top: 60px;
+    right: 10%;
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: gray 0px 10px 15px -5px;
+    cursor: pointer;
+}
+
+
+.switch i{
+    font-size: 1.5rem;
+}
+
+
+.on .bulb i{
+    
+    color: #ffd700;
+
+}
+.on .bulb1 i{
+    
+    color: #ffd700;
+
+}
+
+.on .switch{
+    background: #4caf50;
+}
+
+.on .bulb2 i{
+    
+    color: #ffd700;
+
+}
+
+.on .switch{
+    background: #4caf50;
+}
